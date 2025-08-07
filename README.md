@@ -53,7 +53,7 @@ This is a simple Flask web application that provides mathematical operations (po
 ## Endpoints
 
 - `/` — Main page with forms for all operations.
-- `//pow?a=<x>&b=<y>` — Power calculation (`x` and `y` as query parameters).
+- `/pow?a=<x>&b=<y>` — Power calculation (`x` and `y` as query parameters).
 - `/fib/<n>` — Fibonacci calculation.
 - `/factorial/<n>` — Factorial calculation.
 - `/logs` — View operation logs.
